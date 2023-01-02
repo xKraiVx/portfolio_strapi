@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_widgets_recent_posts",
+  "info": {
+    "displayName": "Recent Posts",
+    "icon": "history"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Recent posts",
+      "required": true
+    }
+  }
+}

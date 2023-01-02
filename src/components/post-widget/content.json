@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_post_widget_contents",
+  "info": {
+    "displayName": "content",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

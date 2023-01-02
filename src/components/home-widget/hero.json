@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_widget_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "hero",
+      "required": true
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-comp.hero-slide"
+    }
+  }
+}

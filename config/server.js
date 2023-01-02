@@ -1,7 +1,13 @@
 module.exports = ({ env }) => ({
-  host: env('HOST', '0.0.0.0'),
-  port: env.int('PORT', 1337),
-  app: {
-    keys: env.array('APP_KEYS'),
-  },
+	host: env('HOST', '0.0.0.0'),
+	url: env('HEROKU_URL'),
+	proxy: true,
+	app: {
+		keys: env.array("APP_KEYS", ['test1', 'test2']),
+	},
+	admin: {
+		auth: {
+			secret: env('ADMIN_JWT_SECRET'/* , 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' */),
+		},
+	},
 });
