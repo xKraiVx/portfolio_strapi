@@ -78,13 +78,15 @@
     },
     "category": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::post-category.post-category"
+      "relation": "manyToOne",
+      "target": "api::post-category.post-category",
+      "inversedBy": "posts"
     },
     "tags": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::post-tag.post-tag"
+      "relation": "manyToMany",
+      "target": "api::post-tag.post-tag",
+      "inversedBy": "posts"
     }
   }
 }

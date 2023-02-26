@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "audience",
+  "info": {
+    "singularName": "audience",
+    "pluralName": "audiences",
+    "displayName": "Audience",
+    "name": "audience",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "comment": "Audience",
+    "draftAndPublish": false
+  },
+  "attributes": {}
+}
