@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_global_widget_contents",
+  "info": {
+    "displayName": "content"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

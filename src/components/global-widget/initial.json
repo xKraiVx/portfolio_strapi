@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_widget_initials",
+  "info": {
+    "displayName": "initial"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
