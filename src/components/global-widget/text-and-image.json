@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_global_widget_text_and_images",
+  "info": {
+    "displayName": "text and image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

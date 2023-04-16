@@ -34,7 +34,11 @@
       },
       "type": "dynamiczone",
       "components": [
-        "home-widget.hero"
+        "home-widget.hero",
+        "global-widget.content",
+        "global-widget.initial",
+        "global-widget.text-and-image",
+        "global-widget.title-and-text"
       ]
     }
   }
