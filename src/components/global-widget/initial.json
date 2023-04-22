@@ -1,7 +1,8 @@
 {
   "collectionName": "components_global_widget_initials",
   "info": {
-    "displayName": "initial"
+    "displayName": "initial",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,11 +10,24 @@
       "type": "string"
     },
     "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "link_text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "navigation_id": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.navigation-id",
+      "required": true
     }
   }
 }

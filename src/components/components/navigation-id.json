@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_navigation_ids",
+  "info": {
+    "displayName": "Navigation ID"
+  },
+  "options": {},
+  "attributes": {
+    "identificator": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
