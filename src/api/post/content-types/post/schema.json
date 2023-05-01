@@ -79,13 +79,7 @@
     "category": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::post-category.post-category",
-      "inversedBy": "posts"
-    },
-    "tags": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::post-tag.post-tag",
+      "target": "api::category.category",
       "inversedBy": "posts"
     }
   }

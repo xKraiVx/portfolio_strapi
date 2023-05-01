@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_global_widget_galleries",
+  "info": {
+    "displayName": "gallery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "honeycombs",
+        "bubbles"
+      ],
+      "default": "honeycombs",
+      "required": true,
+      "enumName": "gallery_type"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "navigation_id": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.navigation-id",
+      "required": true
+    }
+  }
+}

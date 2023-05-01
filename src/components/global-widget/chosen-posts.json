@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_global_widget_chosen_posts",
+  "info": {
+    "displayName": "chosen posts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["block"],
+      "default": "block",
+      "required": true
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    },
+    "linkText": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "navigation_id": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.navigation-id",
+      "required": true
+    }
+  }
+}

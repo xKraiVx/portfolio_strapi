@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * post-tag service
+ * category service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::post-tag.post-tag');
+module.exports = createCoreService('api::category.category');
